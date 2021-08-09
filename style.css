@@ -1,0 +1,39 @@
+body {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background-color: black;
+}
+
+.lines {
+    display: flex;
+}
+
+#cells {
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.start {
+
+}
+
+.finish {
+    background-image: url(./assets/img/treasure.png);
+}
+
+.wall {
+    background-color: grey;
+}
+.passage {
+    background-color: black;
+}
+.player {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-image: url(./assets/img/jack.png);
+}
